@@ -1,0 +1,26 @@
+Adiciona alterações:
+git add .
+
+Adiciona um arquivo individualmente:
+git add "nome arquivo.extensao"
+
+verifica arquivos diferentes:
+git status
+
+Adiciona alterações e faz commit:
+git commit -m "Adicionado todas alterações"
+
+Adiciona alterações e faz commit:
+git commit -am "Adicionado todas alterações"
+
+Manda as alterações par ao servidor:
+git push
+
+Para ver branchs:
+git branch
+
+Criar branch:
+git checkout -b "nome"
+
+Mudar de branch:
+git checkout "Nome da branch de destino"
