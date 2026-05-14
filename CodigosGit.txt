@@ -24,3 +24,5 @@ git checkout -b "nome"
 
 Mudar de branch:
 git checkout "Nome da branch de destino"
+
+É possível editar informações pelo GitHub, pela web
