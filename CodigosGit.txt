@@ -1,28 +1,74 @@
-Adiciona alterações:
+		ADD
+
+Adiciona alterações (tudo):
 git add .
+
+Adiciona arquivos determinados:
+git add arquivo1.txt arquivo2
 
 Adiciona um arquivo individualmente:
 git add "nome arquivo.extensao"
 
+Adiciona diretório (pasta inteira):
+git add diretório/
+
+
 verifica arquivos diferentes:
 git status
+
+
+		COMMIT
 
 Adiciona alterações e faz commit:
 git commit -m "Adicionado todas alterações"
 
 Adiciona alterações e faz commit:
-git commit -am "Adicionado todas alterações"
+git commit -a -m "Adicionado todas alterações"
+
+Gera commit reescrevente o anterior, para se errou  nome, etc:
+git commit --amend -m "nova mensagem ou título do commit"
+
+
+		PUSH
 
 Manda as alterações par ao servidor:
 git push
 
+Envia commit para o repositório remoto apontando uma branch remota:
+git push origin nome_da
+_branch
+
+		PULL
+
+Puxa as alterações da branch atual
+git pull
+
+Puxar alterações da master
+git pull origin master
+
+
+		Branchs
+
 Para ver branchs:
 git branch
 
-Criar branch:
-git checkout -b "nome"
-
 Mudar de branch:
 git checkout "Nome da branch de destino"
+
+Criar branch e mudar para ela automaticamente:
+git checkout -b "nome nova branch"
+
+Criar branch a partir de outra branch:
+git checkout -b branch_a_ser_copiada nome_nova_branch
+
+
+
+
+		CLONAR
+
+Clonar projeto:
+Git clone url_do_projeto (https)
+
+
 
 É possível editar informações pelo GitHub, pela web
